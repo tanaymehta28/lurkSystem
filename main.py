@@ -14,8 +14,6 @@ while len(regId) == 0 and len(regPass) < 8:
         regPass = str(input("Please enter a valid Password: "))
 
 
-#Generates a random seed to run everytime.
-
 regId = hash(regId)*random_seed
 regId = regId/57889
 
