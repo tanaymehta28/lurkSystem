@@ -23,10 +23,11 @@ regPass = regPass+7265374
 
 print("Registration sucessfull. \n")
 
-i = 0
-while i < 20:
-    print("Please wait ", i, " seconds before loging in! \n")
-    i = i+1
+i = 100
+
+while i != 0:
+    print("Please wait till the countdown closes to Zero to Login Back Again.\n",i)
+    i = i-1
 
 logId = str(input("Please enter your Login-id: \n"))
 
